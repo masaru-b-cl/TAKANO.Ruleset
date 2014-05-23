@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>TAKANO.Ruleset</id>
+		<version>1.0.0.0</version>
+		<title>TAKANO.Ruleset</title>
+		<authors>TAKANO Sho</authors>
+		<owners>TAKANO Sho</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>カスタマイズしたコード分析ルールセットを提供します。</description>
+		<copyright>Copyright (C) TAKANO Sho</copyright>
+		<projectUrl>https://github.com/masaru-b-cl/TAKANO.Ruleset</projectUrl>
+		<tags>VisualStudio FxCop</tags>
+	</metadata>
+	<files>
+		<file src="TAKANO.Ruleset.props" target="build" />
+		<file src="TAKANO.ruleset" target="ruleset" />
+	</files>
+</package>
