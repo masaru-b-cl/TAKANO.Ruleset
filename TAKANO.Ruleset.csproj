@@ -42,6 +42,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LICENSE.md" />
+    <None Include="README.md" />
     <None Include="TAKANO.ruleset" />
     <None Include="TAKANO.Ruleset.nuspec" />
     <None Include="TAKANO.Ruleset.props" />
